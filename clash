@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-19 09:59:46
+# 创建时间：2024-08-31 22:42:19
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -87,7 +87,7 @@ dns:
 proxies:
   - {"name":"233boy-tcp-172.233.92.180","type":"vmess","server":"172.233.92.180","port":58602,"cipher":"auto","uuid":"6ff48eff-f92f-46c4-8fe7-9bcfc7f8a093","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"233boy-tcp-172.235.51.91","type":"vmess","server":"172.235.51.91","port":22910,"cipher":"auto","uuid":"95e39f2c-0e0f-472a-9d37-d4a2cefff896","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"233boy-tcp-172.233.147.140","type":"vmess","server":"172.233.147.140","port":17753,"cipher":"auto","uuid":"a0613007-d7de-43dd-a869-ef302435db10","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"233boy-tcp-172.235.48.45","type":"vmess","server":"172.235.48.45","port":50881,"cipher":"auto","uuid":"8bfcb774-5f2a-4aff-91c7-94d39f6d63ab","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,7 +96,7 @@ proxy-groups:
       - DIRECT
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -105,7 +105,7 @@ proxy-groups:
     proxies:
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -114,7 +114,7 @@ proxy-groups:
       - 🎯 全球直连
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
   - name: 📲 电报信息
     type: select
     proxies:
@@ -122,7 +122,7 @@ proxy-groups:
       - 🎯 全球直连
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -130,7 +130,7 @@ proxy-groups:
       - 🚀 节点选择
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -138,7 +138,7 @@ proxy-groups:
       - 🎯 全球直连
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -163,7 +163,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 233boy-tcp-172.233.92.180
       - 233boy-tcp-172.235.51.91
-      - 233boy-tcp-172.233.147.140
+      - 233boy-tcp-172.235.48.45
 
 rules:
 # 本地/局域网地址
