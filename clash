@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-09-21 00:09:01
+# 创建时间：2024-10-03 10:57:06
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -85,8 +85,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"slgr-o","type":"vmess","server":"172.234.84.185","port":34934,"cipher":"auto","uuid":"c5cd7bc4-3b7e-4c59-918e-358742f72e32","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"xxl","type":"vmess","server":"172.235.48.45","port":50881,"cipher":"auto","uuid":"8bfcb774-5f2a-4aff-91c7-94d39f6d63ab","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"233boy-tcp-172.234.88.248","type":"vmess","server":"172.234.88.248","port":36561,"cipher":"auto","uuid":"40da63d2-894b-42e6-b1b7-8cc33534bdef","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"xxl","type":"vmess","server":"172.235.48.45","port":50881,"cipher":"auto","uuid":"8bfcb774-5f2a-4aff-91c7-94d39f6d63ab","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"233boy-tcp-172.233.82.147","type":"vmess","server":"172.233.82.147","port":21112,"cipher":"auto","uuid":"3fd7a35a-f27d-40c6-878a-35b251a73e6c","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -94,7 +94,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
   - name: ♻️ 自动选择
@@ -103,7 +103,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
   - name: 🌍 国外媒体
@@ -112,7 +112,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
   - name: 📲 电报信息
@@ -120,7 +120,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
   - name: Ⓜ️ 微软服务
@@ -128,7 +128,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
   - name: 🍎 苹果服务
@@ -136,7 +136,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
   - name: 🎯 全球直连
@@ -161,7 +161,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - slgr-o
+      - 233boy-tcp-172.234.88.248
       - xxl
       - 233boy-tcp-172.233.82.147
 
