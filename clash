@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-10-23 08:23:25
+# 创建时间：2024-10-23 08:28:51
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -85,7 +85,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"233boy-tcp-172.233.90.61","type":"vmess","server":"172.233.90.61","port":60673,"cipher":"auto","uuid":"2a7d3df3-faea-444f-8d36-f9c88d6d0190","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"slgr1023","type":"vmess","server":"172.233.90.61","port":60673,"cipher":"auto","uuid":"2a7d3df3-faea-444f-8d36-f9c88d6d0190","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"zbcn1020","type":"vmess","server":"172.233.89.6","port":31808,"cipher":"auto","uuid":"984a9012-3d26-4bbb-98bd-6327b0e2a5a2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"xxl1021","type":"vmess","server":"172.234.94.7","port":59452,"cipher":"auto","uuid":"aee432b1-2d8d-4e23-97ee-bdb4e22b8b99","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
@@ -94,7 +94,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
   - name: ♻️ 自动选择
@@ -103,7 +103,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
   - name: 🌍 国外媒体
@@ -112,7 +112,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
   - name: 📲 电报信息
@@ -120,7 +120,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
   - name: Ⓜ️ 微软服务
@@ -128,7 +128,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
   - name: 🍎 苹果服务
@@ -136,7 +136,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
   - name: 🎯 全球直连
@@ -161,7 +161,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 233boy-tcp-172.233.90.61
+      - slgr1023
       - zbcn1020
       - xxl1021
 
