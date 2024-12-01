@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-12-01 11:40:35
+# 创建时间：2024-12-01 18:36:28
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -85,9 +85,9 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"slgr-syd","type":"vmess","server":"172.105.190.49","port":12042,"cipher":"auto","uuid":"8e6a8f8c-fedb-4c13-b154-fd88bd386e57","tls":false,"skip-cert-verify":true,"network":"raw"}
+  - {"name":"slgr-syd","type":"vmess","server":"172.105.190.49","port":12042,"cipher":"auto","uuid":"8e6a8f8c-fedb-4c13-b154-fd88bd386e57","alterId":0,"tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"zbcn1020","type":"vmess","server":"172.233.89.6","port":31808,"cipher":"auto","uuid":"984a9012-3d26-4bbb-98bd-6327b0e2a5a2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"xxl1021","type":"vmess","server":"172.234.94.7","port":59452,"cipher":"auto","uuid":"aee432b1-2d8d-4e23-97ee-bdb4e22b8b99","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"xxl-syn","type":"vmess","server":"172.105.191.176","port":48208,"cipher":"auto","uuid":"009f7d09-22f6-4137-a908-f7be286eef60","tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -96,7 +96,7 @@ proxy-groups:
       - DIRECT
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -105,7 +105,7 @@ proxy-groups:
     proxies:
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -114,7 +114,7 @@ proxy-groups:
       - 🎯 全球直连
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
   - name: 📲 电报信息
     type: select
     proxies:
@@ -122,7 +122,7 @@ proxy-groups:
       - 🎯 全球直连
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -130,7 +130,7 @@ proxy-groups:
       - 🚀 节点选择
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -138,7 +138,7 @@ proxy-groups:
       - 🎯 全球直连
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -163,7 +163,7 @@ proxy-groups:
       - ♻️ 自动选择
       - slgr-syd
       - zbcn1020
-      - xxl1021
+      - xxl-syn
 
 rules:
 # 本地/局域网地址
