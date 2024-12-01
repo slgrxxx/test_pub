@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-11-24 10:29:10
+# 创建时间：2024-12-01 11:40:35
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -85,7 +85,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"slgr1124","type":"vmess","server":"172.233.75.212","port":19539,"cipher":"auto","uuid":"795884dc-10ec-4769-90f6-b65a895d456d","tls":false,"skip-cert-verify":true,"network":"raw"}
+  - {"name":"slgr-syd","type":"vmess","server":"172.105.190.49","port":12042,"cipher":"auto","uuid":"8e6a8f8c-fedb-4c13-b154-fd88bd386e57","tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"zbcn1020","type":"vmess","server":"172.233.89.6","port":31808,"cipher":"auto","uuid":"984a9012-3d26-4bbb-98bd-6327b0e2a5a2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"xxl1021","type":"vmess","server":"172.234.94.7","port":59452,"cipher":"auto","uuid":"aee432b1-2d8d-4e23-97ee-bdb4e22b8b99","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
@@ -94,7 +94,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
   - name: ♻️ 自动选择
@@ -103,7 +103,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
   - name: 🌍 国外媒体
@@ -112,7 +112,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
   - name: 📲 电报信息
@@ -120,7 +120,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
   - name: Ⓜ️ 微软服务
@@ -128,7 +128,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
   - name: 🍎 苹果服务
@@ -136,7 +136,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
   - name: 🎯 全球直连
@@ -161,7 +161,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - slgr1124
+      - slgr-syd
       - zbcn1020
       - xxl1021
 
