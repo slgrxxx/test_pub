@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2024-12-28 11:43:54
+# 创建时间：2024-12-28 12:05:23
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：4
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -89,6 +89,7 @@ proxies:
   - {"name":"slgr-syd","type":"vmess","server":"172.105.190.49","port":12042,"cipher":"auto","uuid":"8e6a8f8c-fedb-4c13-b154-fd88bd386e57","alterId":0,"tls":false,"skip-cert-verify":true,"network":"raw"}
   - {"name":"zbcn1020","type":"vmess","server":"172.233.89.6","port":31808,"cipher":"auto","uuid":"984a9012-3d26-4bbb-98bd-6327b0e2a5a2","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"xxl1228","type":"vless","server":"172.105.161.92","port":32151,"udp":true,"uuid":"f03bb2cf-e970-4215-90c9-390a7e506acd","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"jVzjGqjQ2AkSWaGJ7OnEMPC5owU_QR15XzGOP1UqIiE"},"client-fingerprint":"chrome"}
+  - {"name":"xxl1228s","type":"vless","server":"172.105.161.92","port":4433,"udp":true,"uuid":"e4e92126-4432-4c59-b1cb-d3113b320150","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"jgoZfeSe7nxM2rIIUb8VN-dCgUoGXdQo7KUH2UQv3jU"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -98,6 +99,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -107,6 +109,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -116,6 +119,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
   - name: 📲 电报信息
     type: select
     proxies:
@@ -124,6 +128,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -132,6 +137,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -140,6 +146,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -165,6 +172,7 @@ proxy-groups:
       - slgr-syd
       - zbcn1020
       - xxl1228
+      - xxl1228s
 
 rules:
 # 本地/局域网地址
