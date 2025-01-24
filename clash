@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-01-06 17:58:22
+# 创建时间：2025-01-24 23:31:37
 # 使用模版：V2RaySE 默认模版
 # 节点数量：4
 ####################################
@@ -86,7 +86,7 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"slgr-syd","type":"vmess","server":"172.105.190.49","port":12042,"cipher":"auto","uuid":"8e6a8f8c-fedb-4c13-b154-fd88bd386e57","alterId":0,"tls":false,"skip-cert-verify":true,"network":"raw"}
+  - {"name":"slgr-lon","type":"vless","server":"172.236.1.114","port":45648,"udp":true,"uuid":"bd48ac3d-d162-4014-bd8f-485a2b57bc37","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","alpn":["default"],"reality-opts":{"public-key":"zsFQHarYadTPlKUfPT0NW2cOSLe5uYTFymdg5rKKAGk"},"client-fingerprint":"chrome"}
   - {"name":"zbcn-lnd","type":"vless","server":"172.236.19.10","port":65105,"udp":true,"uuid":"a9842392-3536-40a2-8e71-74a437ddbc5d","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"8cBPmlSC_TSooRY5SW8WY2V8tL2-ZnJRbLrsPRCb42k"},"client-fingerprint":"chrome"}
   - {"name":"xxl1228","type":"vless","server":"172.105.161.92","port":32151,"udp":true,"uuid":"f03bb2cf-e970-4215-90c9-390a7e506acd","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"jVzjGqjQ2AkSWaGJ7OnEMPC5owU_QR15XzGOP1UqIiE"},"client-fingerprint":"chrome"}
   - {"name":"xxl1228s","type":"vless","server":"172.105.161.92","port":4433,"udp":true,"uuid":"e4e92126-4432-4c59-b1cb-d3113b320150","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"jgoZfeSe7nxM2rIIUb8VN-dCgUoGXdQo7KUH2UQv3jU"},"client-fingerprint":"chrome"}
@@ -96,7 +96,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
@@ -106,7 +106,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
@@ -116,7 +116,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
@@ -125,7 +125,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
@@ -134,7 +134,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
@@ -143,7 +143,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
@@ -169,7 +169,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - slgr-syd
+      - slgr-lon
       - zbcn-lnd
       - xxl1228
       - xxl1228s
