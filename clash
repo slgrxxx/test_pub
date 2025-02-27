@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-02-18 23:26:16
+# 创建时间：2025-02-27 22:01:45
 # 使用模版：V2RaySE 默认模版
-# 节点数量：4
+# 节点数量：3
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -87,7 +87,6 @@ dns:
 
 proxies:
   - {"name":"slgr-sg","type":"vless","server":"139.162.53.150","port":44243,"udp":true,"uuid":"66398084-6b8d-4a89-86f9-56fb5385149d","tls":true,"servername":"www.ebay.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"EowIjEBhrAhrbfDrgoNocGBb5nPx-wXE-Wy-5qkdil8"},"client-fingerprint":"chrome"}
-  - {"name":"zbcn-lnd","type":"vless","server":"172.236.19.10","port":65105,"udp":true,"uuid":"a9842392-3536-40a2-8e71-74a437ddbc5d","tls":true,"servername":"www.cloudflare.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"8cBPmlSC_TSooRY5SW8WY2V8tL2-ZnJRbLrsPRCb42k"},"client-fingerprint":"chrome"}
   - {"name":"xxl1228","type":"vless","server":"172.105.161.92","port":32151,"udp":true,"uuid":"f03bb2cf-e970-4215-90c9-390a7e506acd","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"jVzjGqjQ2AkSWaGJ7OnEMPC5owU_QR15XzGOP1UqIiE"},"client-fingerprint":"chrome"}
   - {"name":"xxl1228s","type":"vless","server":"172.105.161.92","port":4433,"udp":true,"uuid":"e4e92126-4432-4c59-b1cb-d3113b320150","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"jgoZfeSe7nxM2rIIUb8VN-dCgUoGXdQo7KUH2UQv3jU"},"client-fingerprint":"chrome"}
 proxy-groups:
@@ -97,7 +96,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
   - name: ♻️ 自动选择
@@ -107,7 +105,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
   - name: 🌍 国外媒体
@@ -117,7 +114,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
   - name: 📲 电报信息
@@ -126,7 +122,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
   - name: Ⓜ️ 微软服务
@@ -135,7 +130,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
   - name: 🍎 苹果服务
@@ -144,7 +138,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
   - name: 🎯 全球直连
@@ -170,7 +163,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - slgr-sg
-      - zbcn-lnd
       - xxl1228
       - xxl1228s
 
