@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-02-27 22:01:45
+# 创建时间：2025-07-25 21:55:15
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：4
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -86,7 +86,8 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"slgr-sg","type":"vless","server":"139.162.53.150","port":44243,"udp":true,"uuid":"66398084-6b8d-4a89-86f9-56fb5385149d","tls":true,"servername":"www.ebay.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"EowIjEBhrAhrbfDrgoNocGBb5nPx-wXE-Wy-5qkdil8"},"client-fingerprint":"chrome"}
+  - {"name":"slgr-jp3","type":"vless","server":"172.237.4.49","port":56603,"udp":true,"uuid":"7c395095-ba04-4eb9-a13a-9495e586764f","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"aYv0uptyxzGf9yKg3uf2DD8hMEWyE6p3vj5TkbYoW0w"},"client-fingerprint":"chrome"}
+  - {"name":"slgr-jp3-re","type":"vless","server":"172.237.4.49","port":4343,"udp":true,"uuid":"f94d2896-da0c-4c6f-b070-b8c865673e7f","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"uTr_qjQCgM7A5vA2GtsWcewqv6LICyPZOeV5wGVLZCk"},"client-fingerprint":"chrome"}
   - {"name":"xxl1228","type":"vless","server":"172.105.161.92","port":32151,"udp":true,"uuid":"f03bb2cf-e970-4215-90c9-390a7e506acd","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"jVzjGqjQ2AkSWaGJ7OnEMPC5owU_QR15XzGOP1UqIiE"},"client-fingerprint":"chrome"}
   - {"name":"xxl1228s","type":"vless","server":"172.105.161.92","port":4433,"udp":true,"uuid":"e4e92126-4432-4c59-b1cb-d3113b320150","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"jgoZfeSe7nxM2rIIUb8VN-dCgUoGXdQo7KUH2UQv3jU"},"client-fingerprint":"chrome"}
 proxy-groups:
@@ -95,7 +96,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
   - name: ♻️ 自动选择
@@ -104,7 +106,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
   - name: 🌍 国外媒体
@@ -113,7 +116,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
   - name: 📲 电报信息
@@ -121,7 +125,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
   - name: Ⓜ️ 微软服务
@@ -129,7 +134,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
   - name: 🍎 苹果服务
@@ -137,7 +143,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
   - name: 🎯 全球直连
@@ -162,7 +169,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - slgr-sg
+      - slgr-jp3
+      - slgr-jp3-re
       - xxl1228
       - xxl1228s
 
