@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-07-27 21:28:08
+# 创建时间：2025-07-29 19:32:48
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：4
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -87,10 +87,7 @@ dns:
 
 proxies:
   - {"name":"slgr-vL250727","type":"vless","server":"172.237.5.171","port":10793,"uuid":"d927e02d-4cbb-47a5-9984-6f82afc0c72f","tls":true,"servername":"www.paypal.com","flow":"xtls-rprx-vision","network":"raw","client-fingerprint":"chrome"}
-  - {"name":"slgr-ss250727","type":"ss","server":"172.237.5.171","port":23432,"password":"WrL0lc/V+Kdn7osz0KuOoSdopijq1qd05vfYUcU92LE=","cipher":"2022-blake3-aes-128-gcm"}
   - {"name":"xxl1228","type":"vless","server":"172.105.161.92","port":32151,"udp":true,"uuid":"f03bb2cf-e970-4215-90c9-390a7e506acd","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"jVzjGqjQ2AkSWaGJ7OnEMPC5owU_QR15XzGOP1UqIiE"},"client-fingerprint":"chrome"}
-  - {"name":"xxl1228s","type":"vless","server":"172.105.161.92","port":4433,"udp":true,"uuid":"e4e92126-4432-4c59-b1cb-d3113b320150","tls":true,"servername":"www.amazon.com","flow":"xtls-rprx-vision","network":"xhttp","reality-opts":{"public-key":"jgoZfeSe7nxM2rIIUb8VN-dCgUoGXdQo7KUH2UQv3jU"},"client-fingerprint":"chrome"}
-  - {"name":"xxl-ss","type":"ss","server":"172.105.161.92","port":7788,"password":"aMW6vVwfEwUsvrmPrjYXkh46deqX+wwr76fC52yP9e0=","cipher":"2022-blake3-aes-256-gcm"}
   - {"name":"slgr-hy250727","type":"hysteria2","server":"172.237.5.171","port":45654,"password":"f30c70a1-4019-4849-9a18-7511ada2eb3c","skip-cert-verify":true}
   - {"name":"xxl-hys","type":"hysteria2","server":"172.105.161.92","port":45545,"password":"37f57c5c-7a08-49a2-9301-16b0e23721c9","skip-cert-verify":true}
 proxy-groups:
@@ -100,10 +97,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
   - name: ♻️ 自动选择
@@ -113,10 +107,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
   - name: 🌍 国外媒体
@@ -126,10 +117,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
   - name: 📲 电报信息
@@ -138,10 +126,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
   - name: Ⓜ️ 微软服务
@@ -150,10 +135,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
   - name: 🍎 苹果服务
@@ -162,10 +144,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
   - name: 🎯 全球直连
@@ -191,10 +170,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - slgr-vL250727
-      - slgr-ss250727
       - xxl1228
-      - xxl1228s
-      - xxl-ss
       - slgr-hy250727
       - xxl-hys
 
