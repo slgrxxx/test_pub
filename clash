@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash.Meta
-# 创建时间：2025-07-29 19:32:48
+# 创建时间：2026-02-02 18:53:59
 # 使用模版：V2RaySE 默认模版
-# 节点数量：4
+# 节点数量：2
 ####################################
 # !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
@@ -87,9 +87,7 @@ dns:
 
 proxies:
   - {"name":"slgr-vL250727","type":"vless","server":"172.237.5.171","port":10793,"uuid":"d927e02d-4cbb-47a5-9984-6f82afc0c72f","tls":true,"servername":"www.paypal.com","flow":"xtls-rprx-vision","network":"raw","client-fingerprint":"chrome"}
-  - {"name":"xxl1228","type":"vless","server":"172.105.161.92","port":32151,"udp":true,"uuid":"f03bb2cf-e970-4215-90c9-390a7e506acd","tls":true,"servername":"aws.amazon.com","flow":"xtls-rprx-vision","network":"raw","reality-opts":{"public-key":"jVzjGqjQ2AkSWaGJ7OnEMPC5owU_QR15XzGOP1UqIiE"},"client-fingerprint":"chrome"}
   - {"name":"slgr-hy250727","type":"hysteria2","server":"172.237.5.171","port":45654,"password":"f30c70a1-4019-4849-9a18-7511ada2eb3c","skip-cert-verify":true}
-  - {"name":"xxl-hys","type":"hysteria2","server":"172.105.161.92","port":45545,"password":"37f57c5c-7a08-49a2-9301-16b0e23721c9","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -97,9 +95,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -107,9 +103,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -117,36 +111,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,9 +156,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - slgr-vL250727
-      - xxl1228
       - slgr-hy250727
-      - xxl-hys
 
 rules:
 # 本地/局域网地址
